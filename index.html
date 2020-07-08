@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"/>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css" />
+    <title>Alugue-me</title>
+
+  </head>
+
+<body>
+  <!-- header -->
+  <header id="home">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark px-5">
+      <a href="#home" class="navbar-brand ">
+        <img src="img/logo.png" alt="logo">
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sobre" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#destaques" class="nav-link">Destaques</a>
+          </li>
+          <li class="nav-item">
+            <a href="#servicos" class="nav-link">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a href="#galeria" class="nav-link">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tour" class="nav-link">Tour</a>
+          </li>
+        </ul>
+        <div class="d-none d-lg-flex align-items-baseline"> 
+        <!-- font awesome tem que ficar dentro de um parent, para estilizar esse parent, nao o font awesome em si. -->
+          <p class="mx-4 text-white">
+            <span class="mx-2 phone-icon"><i class="fas fa fa-phone fa-fw"></i></span>
+            (14) 98765 4321
+          </p>
+          <button class="btn green__btn text-capitalize">Reserve</button>
+        </div>
+      </div>
+      
+    </nav>
+    <!-- end of nav -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- info section -->
+        <div class="col-lg-5 text-capitalize py-5 px-5 banner-info">
+          <h3 class="text-green text-slant">Propriedades Green Bay</h3>
+          <h1>Apartamentos Modernos</h1>
+          <p>
+            <span class="text-green">
+              <i class="fas fa-map"></i>
+              Rua do Bosque 1598, Guarujá-SP
+            </span>
+          </p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis animi veniam hic commodi magnam consectetur</p>
+          <a href="#" class="btn green__btn">Saiba Mais</a>
+          <div class="banner-info__footer d-flex justify-content-around py-2">
+            <!-- single info -->
+            <div class="text-white text-center">
+              <i class="fas fa-bed"></i>
+              <p class="mb-0">3</p>
+              <p>camas</p>
+            </div>
+            <!-- end of single info -->
+            <!-- single info -->
+            <div class="text-white text-center">
+              <i class="fas fa-bath"></i>
+              <p class="mb-0">2</p>
+              <p>banheiros</p>
+            </div>
+            <!-- end of single info -->
+            <!-- single info -->
+            <div class="text-white text-center">
+              <i class="fas fa-warehouse"></i>
+              <p class="mb-0">4000</p>
+              <p class="text-lowercase">m²</p>
+            </div>
+            <!-- end of single info -->
+            <!-- single info -->
+            <div class="text-white text-center">
+              <i class="fas fa-paw"></i>
+              <p class="mb-0">PETS</p>
+              <p>permitidos</p>
+            </div>
+            <!-- end of single info -->
+            <!-- single info -->
+            <div class="text-white text-center">
+              <i class="fas fa-bed"></i>
+              <p class="mb-0">R$3000</p>
+              <p>depósito</p>
+            </div>
+            <!-- end of single info -->
+          </div>
+        </div>
+        <!-- end of info section -->
+    
+        <!-- banner img -->
+        <div class="col-lg-7 banner-img">
+          <div class="banner-img__footer px-3">
+            <div class="center-div">
+              <p class="text-capitalize text-green mb-0">Preço do Aluguel</p>
+              <h4 class="text-white">R$ 1,535/mês</h4>
+            </div>
+          </div>
+        </div>
+        <!-- end of banner img -->
+      </div>
+    </div>
+  </header>
+  <!-- end of header -->
+
+  <!-- about section -->
+  <section id="sobre" class="about py-5">
+    <div class="container">
+      <div class="row">
+        <!-- about img -->
+        <div class="col-10 col-md-6 mx-auto my-3">
+          <div class="card">
+            <!-- card img -->
+            <div class="img-container">
+              <img src="img/featured-1.jpeg" alt="imagem da propriedade" class="card-img-top">
+              <div class="featured-icons">
+                <a href="#" class="featured-icon-left"><i class="fas fa-chevron-left"></i></a>
+                <a href="#" class="featured-icon-right"><i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+            <!-- card body -->
+            <div class="card-body">
+              <div class="card-title">
+                <h5 class="mb-3">Excelente Propriedade em Guarujá-SP</h5>
+                <p><span class="text-green mr-2"><i class="fas fa-map-marker-alt"></i></span>Rua da Lagoa, 101</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- about info -->
+        <div class="col-10 col-md-6 mx-auto my-3">
+          <!-- section title -->
+            <div class="row">
+              <div class="col text-center mb-3">
+                <h3 class="text-green text-slant">Inquilinos e Corretores</h3>
+                <h1 class="text-uppercase">sobre nós</h1>
+                <div class="title-underline my-3 bg-secondary mx-auto">
+                  <div class="title-underline-center"></div>
+                </div>
+                <p class="w-75 text-secondary mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tempora.</p>
+              </div>
+            </div>
+          <!-- end of section title -->
+          <!-- about info body -->
+          <h3 class="text-uppercase mb-3">agende hoje !!!</h3>
+          <blockquote class="blockquote text-right text-green mb-3">
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, aliquam.</p>
+            <footer class="blockquote-footer text-green">
+              Alguém Famoso
+            </footer>
+          </blockquote>
+          <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ab incidunt, nobis eius voluptas eum!</p>
+          <a href="#" class="btn green__btn text-capitalize">Agende já !!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of about section -->
+
+  <!-- destaques -->
+  <section id="destaques" class="destaques py-5">
+    <div class="container">
+      <!-- section title -->
+      <div class="row">
+        <div class="col text-center mb-3">
+          <h3 class="text-green text-slant">Inquilinos e Corretores</h3>
+          <h1 class="text-uppercase">destaques</h1>
+          <div class="title-underline my-3 bg-secondary mx-auto">
+            <div class="title-underline-center"></div>
+          </div>
+          <p class="w-75 text-secondary mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tempora.</p>
+        </div>
+      </div>
+      <!-- end of section title -->
+      <div class="row">
+        <!-- single card -->
+        <div class="col-10 col-md-4 mx-auto my-3">
+          <div class="card">
+            <!-- card img -->
+            <div class="img-container">
+              <img src="img/featured-1.jpeg" alt="imagem da propriedade" class="card-img-top">
+              <div class="featured-icons">
+                <a href="#" class="featured-icon-left"><i class="fas fa-chevron-left"></i></a>
+                <a href="#" class="featured-icon-right"><i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+            <!-- card body -->
+            <div class="card-body">
+              <div class="card-title">
+                <h5 class="mb-3">Excelente Propriedade em Guarujá-SP</h5>
+                <p><span class="text-green mr-2"><i class="fas fa-map-marker-alt"></i></span>Rua da Lagoa, 101</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single card -->
+        <!-- single card -->
+        <div class="col-10 col-md-4 mx-auto my-3">
+          <div class="card">
+            <!-- card img -->
+            <div class="img-container">
+              <img src="img/featured-2.jpeg" alt="imagem da propriedade" class="card-img-top">
+              <div class="featured-icons">
+                <a href="#" class="featured-icon-left"><i class="fas fa-chevron-left"></i></a>
+                <a href="#" class="featured-icon-right"><i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+            <!-- card body -->
+            <div class="card-body">
+              <div class="card-title">
+                <h5 class="mb-3">Excelente Propriedade em Santos-SP</h5>
+                <p><span class="text-green mr-2"><i class="fas fa-map-marker-alt"></i></span>Orla da Praia, 168</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single card -->
+        <!-- single card -->
+        <div class="col-10 col-md-4 mx-auto my-3">
+          <div class="card">
+            <!-- card img -->
+            <div class="img-container">
+              <img src="img/featured-3.jpeg" alt="imagem da propriedade" class="card-img-top">
+              <div class="featured-icons">
+                <a href="#" class="featured-icon-left"><i class="fas fa-chevron-left"></i></a>
+                <a href="#" class="featured-icon-right"><i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+            <!-- card body -->
+            <div class="card-body">
+              <div class="card-title">
+                <h5 class="mb-3">Excelente Propriedade em Praia Grande-SP</h5>
+                <p><span class="text-green mr-2"><i class="fas fa-map-marker-alt"></i></span>Avendida Alameda, 1001</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single card -->
+      </div>
+    </div>
+  </section>
+  <!-- end of destaques -->
+
+  <!-- contato -->
+  <section class="contato py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-md-6 mt-3 mx-auto">
+          <h4 class="text-capitalize text-white mt-3">
+            <i class="fas fa-envelope mx-2"></i>
+            cadastre-se para saber mais
+          </h4>
+        </div>
+        <div class="col-10 col-md-6 my-3 mx-auto">
+          <form class="form-inline">
+            <input type="text" class="form-control mx-2 my-2">
+            <button href="#"class="btn white__btn text-capitalize">cadastre-se</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of contato -->
+
+  <!-- servicos -->
+  <section id="servicos" class="servicos py-5">
+    <div class="container">
+      <div class="row flex-lg-row-reverse align-items-center">
+        <!-- text servicos -->
+        <div class="col-10 col-lg-8 mx-auto my-3">
+          <!-- section title -->
+          <div class="row">
+            <div class="col text-center mb-3">
+              <h3 class="text-green text-slant">Inquilinos e Corretores</h3>
+              <h1 class="text-uppercase text-white">serviços</h1>
+              <div class="title-underline my-3 bg-secondary mx-auto">
+                <div class="title-underline-center"></div>
+              </div>
+              <p class="w-75 mx-auto text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tempora.</p>
+            </div>
+          </div>
+          <!-- end of section title -->
+          <div class="row">
+            <!-- single servico -->
+            <div class="col-6 d-flex justify-content-around mt-4">
+              <div class="mr-3"><i class="fas fa-user service-icon"></i></div>
+              <div class="service-text text-capitalize">
+                <h5 class="text-white">melhor vizinhança</h5>
+                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="text-green text__arrow">Saiba Mais -></a>
+              </div>
+            </div>
+            <!-- end of single servico -->
+            <!-- single servico -->
+            <div class="col-6 d-flex justify-content-around mt-4">
+              <div class="mr-3"><i class="fas fa-lightbulb service-icon"></i></div>
+              <div class="service-text text-capitalize">
+                <h5 class="text-white">energia elétrica</h5>
+                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="text-green">Saiba Mais -></a>
+              </div>
+            </div>
+            <!-- end of single servico -->
+            <!-- single servico -->
+            <div class="col-6 d-flex justify-content-around mt-4">
+              <div class="mr-3"><i class="fas fa-thumbs-up service-icon"></i></div>
+              <div class="service-text text-capitalize">
+                <h5 class="text-white">mais facilidades</h5>
+                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="text-green">Saiba Mais -></a>
+              </div>
+            </div>
+            <!-- end of single servico -->
+            <!-- single servico -->
+            <div class="col-6 d-flex justify-content-around mt-4">
+              <div class="mr-3"><i class="fas fa-cogs service-icon"></i></div>
+              <div class="service-text text-capitalize">
+                <h5 class="text-white">serviços 24 horas</h5>
+                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="text-green text__arrow">Saiba Mais -></a>
+              </div>
+            </div>
+            <!-- end of single servico -->
+          </div>
+        </div>
+                
+         <!-- img servicos -->
+        <div class="col-8 col-lg-4 mx-auto my-3">
+          <div class="img-servicos">
+            <img src="img/featured-1.jpeg" alt="imagem de propriedade" class="img-fluid">
+            <span class="img-button text-capitalize text-white">Mais Detalhes</span>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </section>
+  <!-- end of servicos -->
+
+  <!-- galeria -->
+  <section id="galeria" class="galeria py-5">
+    <div class="container">
+      <!-- section title -->
+      <div class="row">
+        <div class="col text-center mb-3">
+          <h3 class="text-green text-slant">Inquilinos e Corretores</h3>
+          <h1 class="text-uppercase">galeria</h1>
+          <div class="title-underline my-3 bg-secondary mx-auto">
+            <div class="title-underline-center"></div>
+          </div>
+          <p class="w-75 text-secondary mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tempora.</p>
+        </div>
+      </div>
+      <!-- end of section title -->
+      <!-- buttons -->
+      <div class="row justify-content-around flex-wrap">
+        <a href="#" class="btn transparent__btn text-capitalize">todos</a>
+        <a href="#" class="btn transparent__btn text-capitalize">sala de estar</a>
+        <a href="#" class="btn transparent__btn text-capitalize">cozinha</a>
+        <a href="#" class="btn transparent__btn text-capitalize">quarto</a>
+      </div>
+      <!-- end of buttons -->
+      <!-- nested columns -->
+      <div class="row">
+        <!-- single column -->
+        <div class="col-10 col-lg-6 mx-auto my-3">
+          <div class="gallery-img-container">
+            <img src="img/livingRoom2.jpeg" alt="living room" class="gallery-img img-fluid">
+            <a href="#" class="text-capitalize gallery-info p-2">sala de estar</a>
+            <span class="gallery-icon"><i class="fas fa-plus"></i></span>
+          </div>
+        </div>
+        <!-- single column -->
+        <div class="col-10 col-lg-6 mx-auto my-3 d-flex flex-column justify-content-between"> <!-- usar o between quando usar flex-column e around quando usar o flex-row -->
+          <!-- single row -->
+          <div class="row">
+            <!-- single column -->
+            <div class="col-lg-6 my-lg-0 my-3"> 
+              <div class="gallery-img-container">
+                <img src="img/bedroom2.jpeg" alt="living room" class="gallery-img img-fluid">
+                <a href="#" class="text-capitalize gallery-info p-2">quarto casal</a>
+                <span class="gallery-icon"><i class="fas fa-plus"></i></span>
+              </div>
+            </div>
+            <!-- end of single column -->
+            <!-- single column -->
+            <div class="col-lg-6 my-lg-0 my-3">
+              <div class="gallery-img-container">
+                <img src="img/bedroom.jpeg" alt="living room" class="gallery-img img-fluid">
+                <a href="#" class="text-capitalize gallery-info p-2">quarto</a>
+                <span class="gallery-icon"><i class="fas fa-plus"></i></span>
+              </div>
+            </div>
+            <!-- end of single column -->
+          </div>
+          <!-- end of single row -->
+          <!-- single row -->
+          <div class="row">
+            <!-- single column -->
+            <div class="col-lg-6 my-lg-0 my-3">
+              <div class="gallery-img-container">
+                <img src="img/kitchen.jpeg" alt="living room" class="gallery-img img-fluid">
+                <a href="#" class="text-capitalize gallery-info p-2">cozinha</a>
+                <span class="gallery-icon"><i class="fas fa-plus"></i></span>
+              </div>
+            </div>
+            <!-- end of single column -->
+            <!-- single column -->
+            <div class="col-lg-6 my-lg-0 my-3">
+              <div class="gallery-img-container">
+                <img src="img/livingRoom.jpeg" alt="living room" class="gallery-img img-fluid">
+                <a href="#" class="text-capitalize gallery-info p-2">sala</a>
+                <span class="gallery-icon"><i class="fas fa-plus"></i></span>
+              </div>
+            </div>
+            <!-- end of single column -->
+          </div>
+          <!-- end of single row -->
+        
+        </div>
+      </div>
+      <!-- end of nested columns -->
+    </div>
+  </section>
+  <!-- end of galeria -->
+  <!-- tours -->
+  <section id="tour" class="servicos tour py-5">
+    <div class="container">
+      <!-- section title -->
+      <div class="row">
+        <div class="col text-center mb-3">
+          <a href="#" class="video">
+            <i class="fas fa-play text-green my-3 video-icon"></i>
+          </a>
+          <h3 class="text-green text-slant">Faça um Tour Virtual</h3>
+          <h1 class="text-uppercase text-white">nosso tour virtual</h1>
+          <div class="title-underline my-3 bg-secondary mx-auto">
+            <div class="title-underline-center"></div>
+          </div>
+        </div>
+      </div>
+      <!-- end of section title -->
+    </div>
+  </section>
+  <!-- end of tours -->
+
+
+  <!-- proximidades -->
+  <section class="proximidades py-5">
+    <div class="container">
+
+      <!-- section title -->
+      <div class="row">
+        <div class="col text-center mb-3">
+          <h3 class="text-green text-slant">Inquilinos e Corretores</h3>
+          <h1 class="text-uppercase">locais próximos</h1>
+          <div class="title-underline my-3 bg-secondary mx-auto">
+            <div class="title-underline-center"></div>
+          </div>
+          <p class="w-75 text-secondary mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tempora.</p>
+        </div>
+      </div>
+      <!-- end of section title -->
+      <div class="row align-items-center">
+        
+        <div class="col-md-6 my-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14582.52325116159!2d-46.224176219569785!3d-23.973491801676335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1fffc3a4c88bb%3A0xb50792091fa99f0e!2sJardim%20Virginia%2C%20Guaruj%C3%A1%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1594085760360!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+        
+        <div class="col-md-6 my-3">
+          <div class="w-75 mx-auto">
+            <!-- single -->
+            <div class="single my-3">
+              <h6>
+                <span class="text-green mx-2">
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+                Escolas
+                <span class="float-right">4.8Km</span>
+              </h6>
+            </div>
+            <!-- end og single -->
+            <!-- single -->
+            <div class="single my-3">
+              <h6>
+                <span class="text-green mx-2">
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+                Shopping Center
+                <span class="float-right">2.5Km</span>
+              </h6>
+            </div>
+            <!-- end og single -->
+            <!-- single -->
+            <div class="single my-3">
+              <h6>
+                <span class="text-green mx-2">
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+                Bares
+                <span class="float-right">5.2Km</span>
+              </h6>
+            </div>
+            <!-- end og single -->
+            <!-- single -->
+            <div class="single my-3">
+              <h6>
+                <span class="text-green mx-2">
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+                Restaurantes
+                <span class="float-right">1.8Km</span>
+              </h6>
+            </div>
+            <!-- end og single -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of proximidades -->
+
+  <!-- footer -->
+  <section class="footer py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-md-6 text-center my-3 pr-lg-4 mx-auto">
+          <img src="img/logo.png" alt="logo" class="text-center my-2">
+          <p class="text-muted w-75 text-left mx-auto my-2">
+            Lorem ipsum dolor sit, amet consectetur 
+            adipisicing elit. Architecto, provident adipisci repellat facilis 
+            inventore maiores quas suscipit? Officia, odit modi?
+          </p>
+          <a href="#" class="text-green text__arrow">Saiba Mais -></a>
+        </div>
+        <div class="col-10 col-md-6 text-center my-3 mx-auto">
+                <!-- section title -->
+          <div class="row">
+            <div class="col text-center mb-3">
+              <h1 class="text-uppercase text-white">contate-nos</h1>
+              <div class="title-underline my-3 bg-secondary mx-auto">
+                <div class="title-underline-center"></div>
+              </div>
+            </div>
+          </div>
+          <!-- end of section title -->
+          <div class="row">
+            <div class="col-10 mx-auto">
+              <!-- single -->
+              <div class="single-contato d-flex justify-content-between my-2">
+                <span><i class="fas fa-map text-green"></i></span>
+                <p class="text-white">Rua Esmeraldas 123, Marília-SP</p>
+              </div>
+              <!-- end of single -->
+              <!-- single -->
+              <div class="single-contato d-flex justify-content-between my-2">
+                <span><i class="fas fa-phone text-green"></i></span>
+                <p class="text-white">(14) 98765 4321</p>
+              </div> 
+              <!-- end of single -->
+              <!-- single -->
+              <div class="single-contato d-flex justify-content-between my-2">
+                <span><i class="fas fa-envelope text-green"></i></span>
+                <p class="text-white">contato@alugueme.com.br</p>
+              </div> 
+              <!-- end of single -->
+              <!-- single -->
+              <div class="single-contato d-flex justify-content-between my-2">
+                <span><i class="fas fa-clock text-green"></i></span>
+                <p class="text-white">Seg a Sab das 8:00h às 18:00h</p>
+              </div> 
+              <!-- end of single -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- end of footer -->
+  
+
+  <!-- jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <script src="js/app.js"></script>
+</body>
+</html>

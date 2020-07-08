@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat|Mali");
+
+:root {
+  --mainDark: #242325;
+  --mainGreen: #61e786;
+  --mainWhite: #fff;
+  --mainGrey: #eeeeee;
+}
+body {
+  font-family: "Mali", cursive;
+  background: var(--mainWhite);
+  color: var(--mainDark);
+}
+
+/* Global */
+
+.text-green{
+  color: var(--mainGreen);
+}
+
+.text-slant{
+  font-family: 'Caveat', cursive;
+}
+
+.green__btn{
+  color: var(--mainGreen);
+  border: 0.1rem solid var(--mainGreen);
+  background-color: transparent;
+  transition: all 650ms;
+}
+
+.green__btn:hover{
+  color: var(--mainDark);
+  background-color: var(--mainGreen);
+}
+
+.white__btn{
+  color: var(--mainWhite);
+  border: 0.1rem solid var(--mainWhite);
+  background-color: transparent;
+  transition: all 650ms;
+}
+
+.white__btn:hover{
+  color: var(--mainGreen);
+  background-color: var(--mainWhite);
+}
+
+.transparent__btn{
+  color: var(--mainDark);
+  background-color: transparent;
+  transition: all 650ms;
+}
+
+.transparent__btn:hover{
+  color: var(--mainWhite);
+  background-color: var(--mainGreen);
+}
+
+.title-underline{
+  width: 12rem;
+  height: 0.3rem;
+  position: relative;
+  border-radius: 2rem;
+  align-items: center;
+}
+
+.title-underline-center{
+  position: absolute;
+  width: 50%;
+  height: 0.6rem;
+  border-radius: 1rem;
+  background-color: var(--mainGreen);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blockquote{
+  border-left: 0.5rem solid var(--mainGreen);
+}
+
+.text__arrow {
+  text-decoration: none;
+}
+
+.text__arrow:hover{
+  color: var(--mainWhite);
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar{
+  background-color: var(--mainDark)!important;
+}
+
+.phone-icon{
+  color: var(--mainGreen);
+  background-color: transparent;
+  border: 0.1rem solid var(--mainGreen);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+/* Banner */
+
+.banner-info{
+  min-height: calc(100vh - 101px);
+  background-color: var(--mainGrey);
+  position: relative;
+}
+
+
+.banner-info__footer{
+  background-color: var(--mainGreen);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.banner-img{
+  min-height: calc(100vh - 101px);
+  background: url(../img/bannerBcg.jpeg) center/cover fixed no-repeat;
+  position: relative;
+}
+
+.banner-img__footer{
+  background-color: var(--mainDark);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 104px;
+  display: flex;
+  align-items: center;
+}
+
+/* About */ 
+.img-container{
+  position: relative;
+}
+
+.featured-icons{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.featured-icon-left{
+  background: var(--mainDark);
+  padding: 0.5rem;
+  display: inline-block;
+  color: var(--mainWhite);
+}
+
+.featured-icon-right{
+  background: var(--mainGreen);
+  padding: 0.5rem;
+  display: inline-block;
+  color: var(--mainWhite);
+}
+
+/* Destaques */
+.destaques{
+  background-color: var(--mainGrey);
+}
+
+/* Contato */
+.contato{
+  background-color: var(--mainGreen);
+}
+
+/* Servicos */
+
+.servicos{
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/bannerBcg.jpeg) center/cover no-repeat fixed;
+}
+
+.img-servicos{
+  position: relative;
+}
+
+.img-button{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--mainGreen);
+  padding: 0.3rem;
+  
+}
+
+.service-icon{
+  color: var(--mainGreen);
+  border: 0.1rem solid var(--mainGreen);
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+/* Gallery */
+.gallery-img-container{
+  position: relative;
+  transition: all 650ms linear;
+  overflow: hidden;
+}
+
+.gallery-info{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  color: var(--mainDark);
+  background-color: var(--mainGreen);
+  transition: all 650ms linear;
+}
+
+.gallery-info:hover{
+  text-decoration: none;
+  color: var(--mainWhite);
+  
+}
+
+.gallery-icon{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  transition: all 1s linear;
+  color: var(--mainWhite);
+  font-size: 1.5rem;
+}
+
+.gallery-img-container:hover .gallery-icon{
+  display: block;
+}
+
+
+.gallery-img-container:hover{
+  background: rgba(0,0,0,0.9);
+}
+
+.gallery-img{
+  transition: all 650ms linear;
+}
+.gallery-img-container:hover .gallery-img{
+  opacity: 0.4;
+}
+
+.gallery-img-container:hover .gallery-info{
+  transform: translate(-50%, 0);
+}
+
+/* Tour */
+
+.video-icon{
+  padding: 1.8rem 1.3rem;
+  background-color: white;
+  font-size: 2rem;
+  border-radius: 1.2rem;
+  transition: all 1s ease;
+}
+
+.video:hover .video-icon{
+  background-color: var(--mainGreen);
+  color: var(--mainWhite);
+}
+
+/* Footer */
+.footer{
+  background-color: var(--mainDark);
+}
